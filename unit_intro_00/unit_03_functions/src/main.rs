@@ -4,8 +4,13 @@ fn main() {
     another_function();
     print_number(5);
     print_labeled_measurement(5, 'h');
-    let n = get_number(5);
-    print!("number is {}", n);
+    let x = get_number(5);
+    print!("x is {}", x);
+    let y = {
+        let x = 3;
+        x + 1
+    };
+    print!("y is {}", y);
 }
 
 fn another_function() {
@@ -21,5 +26,5 @@ fn print_labeled_measurement(value: i32, unit_label: char) {
 }
 
 fn get_number(value: i32) -> i32 {
-    value
+    value + 2
 }
