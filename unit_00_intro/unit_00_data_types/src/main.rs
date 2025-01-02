@@ -70,6 +70,8 @@ fn main() {
     // The Array Type
     let arr = [1, 2, 3, 4, 5];
     println!("arr:{:?}", arr);
+    let slice = &arr[1..3];
+    println!("slice:{:?}", slice);
     let a: [i32; 5] = [1, 2, 3, 4, 5];
     println!("arr:{:?}", a);
     let a = [3; 5];
