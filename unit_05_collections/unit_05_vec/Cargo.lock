@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "unit_demo"
+name = "unit_05_vec"
 version = "0.1.0"
